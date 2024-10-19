@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.reportcon {
+    font-family: "Mali", cursive;
+    font-style: normal;
+    /* font-weight: 900;
+    font-size: 40px; */
+    margin: 0 auto;
+    padding-top: 80px;
+    /* background-color: aqua; */
+    width: 800px;
+    /* height: 900px; */
+}
+
+.iconreport {
+    margin: 20px 0px;
+    display: flex;
+    align-items: center;
+    background-color: #FFBF69;
+    width: 200px;
+    color: #000000;
+    font-weight: 900;
+    font-size: 35px;
+    justify-content: space-evenly;
+    border-radius: 40px;
+}
+
+.detailsReport {
+    background-color: #fff;
+    /* margin-top: 20px; */
+    padding: 10px;
+    width: 100%;
+}
+
+.indetails {
+    display: flex;
+}
+
+.indetails img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    /* justify-content: flex-end; */
+}
+
+.headreport {
+    padding: 10px;
+    width: 100%;
+}
+
+.postreport {
+    margin-top: 15px;
+    padding: 20px;
+    background-color: #FFBF69;
+    width: 100%;
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+}
+
+.postreport img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.postreport h2 {
+    font-weight: 900;
+    font-size: 30px;
+}

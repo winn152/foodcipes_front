@@ -1,0 +1,198 @@
+.containeri {
+    padding-top: 80px;
+    /* margin-top: 80px; */
+    width: 1300px;
+    margin: 0 auto;
+    /* outline: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Mali", cursive;
+    font-style: normal;
+    /* font-weight: 900;
+    font-size: 40px; */
+
+}
+
+.containeri1 {
+    min-height: 100px;
+    width: 700px;
+    /* background-color: #ffffff; */
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containeri1 .icon {
+    /* font-weight: 900; */
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.containeri2 {
+    min-height: 100px;
+    width: 700px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: ; */
+    align-content: space-around;
+    padding: 30px;
+    display: flex;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.mar10 {
+    margin-top: 10px;
+}
+.for h1{
+    /* background-color: aqua; */
+    width: 100%;
+}
+
+.for {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* outline: 2px solid black; */
+    margin: 0 2px;
+}
+
+.display {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    /* outline: 2px solid black; */
+
+}
+
+.containeri2 h2 {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.containeriin2 {
+    margin-top: 10px;
+    display: flex;
+    /* outline: 2px solid black; */
+    justify-content: space-around;
+
+}
+
+.containeriin2 button {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.iicon {
+    display: flex;
+    justify-content: center;
+    font-size: 200px;
+}
+
+.icon-wrapper {
+    position: relative;
+}
+
+.icon {
+    font-size: 50px;
+    /* ขนาดของไอคอน */
+}
+
+.selected-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* ปรับขนาดให้เหมาะสม */
+    height: 100%;
+    /* ปรับขนาดให้เหมาะสม */
+    object-fit: cover;
+    border-radius: 50%;
+    /* ทำให้ภาพเป็นวงกลม */
+}
+
+.icon-wrapper {
+    position: relative;
+}
+
+.icon {
+    font-size: 50px;
+    /* ขนาดของไอคอน */
+}
+
+.selected-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* ปรับขนาดให้เหมาะสม */
+    height: 100%;
+    /* ปรับขนาดให้เหมาะสม */
+    object-fit: cover;
+    border-radius: 50%;
+    /* ทำให้ภาพเป็นวงกลม */
+}
+
+.dropdown-container-insert {
+    background-color: aqua;
+    margin-top: 5px;
+}
+
+.status {
+    margin-top: 10px;
+}
+
+.img-main img {
+    width: 700px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 40px;
+    margin: 20px 0;
+}
+
+.preview-image{
+    width: 180px;
+    height: 18mm0px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.image-previews{
+    display: flex;
+    /* background-color: aqua; */
+    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-previews img {
+    margin: 5px;
+}
+.video-preview{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+/* .video-preview video{
+
+} */
+
+.hashtag_input input{
+    width: 323px;
+}
+
+.hashtag_input li{
+    /* background-color: aqua; */
+    border-radius: 5px;
+    outline: 1px solid #2EC4B6;
+    margin-top: 5px;
+    padding: 5px;
+    font-size: 15px;
+}

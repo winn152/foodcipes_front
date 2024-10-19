@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.containerh {
+    width: 1300px;
+    margin: 0 auto;
+    /* outline: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.b {
+    background-color: #F8F6F2;
+    /* outline: 2px solid green; */
+    height: auto;
+}
+
+.no-border {
+    border: none;
+    outline: none;
+    /* This removes the default focus outline */
+}
+
+.containerh .container1 {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 1000px;
+    /* outline: 5px solid rgb(255, 0, 0); */
+    margin: 20px;
+    /* padding: 20px; */
+    /* font-family: "Mali", cursive;
+    font-weight: 900;
+    font-style: normal; */
+    position: relative;
+}
+
+.clicked {
+    background-color: orange;
+    /* เปลี่ยนพื้นหลังของปุ่มเป็นสีส้ม */
+    color: white;
+    /* เปลี่ยนสีของข้อความเป็นสีขาว */
+}
+
+.containerh .container1 a span {
+    font-size: 40px;
+    font-family: "Mali", cursive;
+    font-style: normal;
+    font-weight: 900;
+
+}
+
+.b .containerh .container1 a img {
+    border-radius: 50%;
+}
+
+.containerh .container2 {
+    margin-top: -10px;
+    display: flex;
+    /* outline: 5px solid rgb(43, 255, 0); */
+    /* font-size: 40px; */
+    font-family: "Mali", cursive;
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+.clicked {
+    background-color: #FF9F1C !important;
+    border-color: #FF9F1C !important;
+}
+
+.post {
+    display: flex;
+    margin-top: 20px;
+}
+
+.post button {
+    margin: 10px 40px 40px 40px;
+    width: 270px;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    font-family: "Mali", cursive;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.containerh .container1 h1 {
+    font-size: 20px;
+    font-family: "Mali", cursive;
+    font-weight: 900;
+    font-style: normal;
+    /* outline: 2px solid orange; */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /* margin: 16px; */
+
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.profile .a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.p-5 {
+    padding: 1.25rem;
+    /* Equivalent to p-5 in Tailwind CSS */
+}
+
+.profile .a p {
+    padding-left: 10px;
+}
+
+.card {
+    width: 250px;
+    margin: 0 10px;
+}
+
+.containerh .container2 a p {
+    font-size: 15px;
+    font-family: "Mali", cursive;
+    font-weight: 900;
+    font-style: normal;
+    color: #000;
+    padding: 0px 2px;
+}
+
+.containerh .container2 a h5 {
+    font-size: 15px;
+    font-family: "Mali", cursive;
+    font-weight: 900;
+    font-style: normal;
+    color: #000;
+    padding: 0px 2px;
+}
+
+.IoRibbonOutline {
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.containerh .container2 .card a img {
+    position: relative;
+}
+
+.containerp3 a {
+    /* outline: 2px solid red; */
+    margin-bottom: 20px;
+}
+.containerpp2 {
+    display: flex;
+    /* outline: 2px solid red; */
+    width: 700px;
+    justify-content: center;
+}
+
+.containerpp2 button {
+    font-family: "Mali", cursive;
+    font-style: normal;
+    font-size: 25px;
+    font-weight: 900;
+    width: 165px;
+    height: 60px;
+
+}
+
+.cardsave {
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 2px;
+}

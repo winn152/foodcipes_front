@@ -1,0 +1,97 @@
+.container_noti {
+    display: flex;
+    flex-direction: column;
+    padding-top: 90px;
+    /* justify-content: center; */
+    align-items: center;
+    /* width: 700px; */
+    /* outline: 2px solid red; */
+}
+
+.container_noti1 {
+    /* outline: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    /* font-size: 40px; */
+    font-family: "Mali", cursive;
+    /* font-weight: 900; */
+    font-style: normal;
+    transition: background-color 0.3s; /* เพิ่มการเปลี่ยนสีเมื่อคลิก */
+    cursor: pointer; /* เปลี่ยนเคอร์เซอร์เมื่อชี้ */
+
+
+}
+.container_noti1.clicked {
+    background-color: white; /* สีพื้นหลังสีขาวเมื่อคลิก */
+}
+
+
+
+.container_noit2 {
+    /* position: relative; */
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    /* outline: 2px solid red; */
+}
+
+.containerp1j_p {
+    padding-top: 10px;
+    font-size: 12px;
+    /* width: 300px; */
+    /* กำหนดความกว้างขององค์ประกอบตามต้องการ */
+    /* height: 60px; */
+    /* กำหนดความสูงขององค์ประกอบ */
+    overflow: hidden;
+    /* ซ่อนข้อความที่เกิน */
+    text-overflow: ellipsis;
+    /* แสดงเครื่องหมายจุดสามจุดเมื่อข้อความเกิน */
+    display: -webkit-box;
+    /* ใช้สำหรับ WebKit */
+    -webkit-line-clamp: 2;
+    /* จำนวนบรรทัดที่ต้องการแสดง */
+    -webkit-box-orient: vertical;
+    /* ตั้งค่าเป็นแนวตั้ง */
+    
+}
+
+.container_row {
+    display: flex;
+
+}
+
+.container_row h2 {
+    margin-left: 20px;
+    background-color: #FF9F1C;
+    padding: 0 10px;
+    height: 25px;
+    text-align: center;
+    border-radius: 20px;
+    color: aliceblue;
+}
+
+.container_noti3{
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content: center; */
+    font-size: 40px;
+    font-family: "Mali", cursive;
+    font-weight: 700;
+    font-style: normal;
+    /* position: absolute; */
+    /* left: 0; */
+    align-items: center;
+    
+}
+
+.container_noti3 h1{
+    margin-right: 20px;
+}
+
+.container_noti4{
+    margin-top: 20px;
+}
+

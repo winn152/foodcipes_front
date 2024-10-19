@@ -1,0 +1,122 @@
+.EditPost-btn {
+    background-color: #ffffff;
+    display: inline-block;
+    padding: .3rem 1rem;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #FF0000;
+    transition: 0.3s;
+    /* margin-top: 1rem; */
+    border-radius: 20px;
+    /* text-transform: uppercase; */
+}
+
+.EditPost-btn:hover {
+    background-color: #FF0000;
+    /* border: 2px solid #ff0000; */
+    /* background: transparent; */
+    color: #ffffff;
+}
+.pro_comment{
+    /* background-color: aqua; */
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.pro_comment input{
+    border-radius: 20px;
+}
+.pro_comment button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(0, 94, 255);
+    color: #ffffff;
+}
+
+.commentuser{
+    display: flex;
+    align-items: center;
+    
+}
+.commentuser p{
+    background-color: rgb(227, 231, 231);
+    margin-left: 10px;
+    /* width: 100%; */
+    padding: 6px 10px;
+    border-radius: 20px;
+}
+hr {
+    margin: 10px;
+    /* height: 5px; */
+}
+.pro_comment img,.commentuser img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.pro_comment input{
+    margin-left: 20px;
+    width: 500px;
+}
+.hastag{
+    display: flex;
+    align-items: center;
+}
+.hastag p {
+    margin-left: 10px;
+}
+
+.detail-btn {
+    min-width: 90px;
+    background-color: #ff0000;
+    display: inline-block;
+    padding: .3rem 1rem;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid transparent;
+    transition: 0.3s;
+    margin-top: 1rem;
+    border-radius: 20px;
+    /* text-transform: uppercase; */
+}
+
+.detail-btn:hover {
+    background-color: #a10000;
+    /* border: 2px solid #ff0000; */
+    /* background: transparent; */
+    color: #ffffff;
+}
+
+.Public-btn {
+    min-width: 90px;
+    background-color: #2EC4B6;
+    display: inline-block;
+    padding: .3rem 1rem;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid transparent;
+    transition: 0.3s;
+    margin-top: 1rem;
+    border-radius: 20px;
+    /* text-transform: uppercase; */
+}
+
+.Public-btn:hover {
+    background-color: #006a60;
+    /* border: 2px solid #ff0000; */
+    /* background: transparent; */
+    color: #ffffff;
+}
+
+
+
+
+

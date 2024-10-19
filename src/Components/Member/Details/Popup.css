@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    font-family: "Mali", cursive;
+    font-style: normal;
+    
+}
+
+.popup {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 20%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.popup h2{
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown {
+    position: absolute;
+    background: white;
+    border-radius: 4px;
+    z-index: 1;
+    width: 100%;
+}
+
+.buttonReport {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: antiquewhite; */
+}
+
+.banner-btn{
+    background-color: #FF9F1C;
+    display: inline-block;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    color: #ffffff;
+    border: 2px solid transparent;
+    transition:  0.3s;
+    /* margin-top: 1rem; */
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+.banner-btn:hover{
+    border: 2px solid #FF9F1C;
+    background: transparent;
+    color: #FF9F1C;
+}
+
+.banner-btn:nth-child(2){
+    background-color: #2EC4B6;
+}
+
+.banner-btn:hover:nth-child(2){
+    border: 2px solid #2EC4B6;
+    background: transparent;
+
+    color: #2EC4B6;
+}

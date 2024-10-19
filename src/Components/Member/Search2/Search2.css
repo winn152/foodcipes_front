@@ -1,0 +1,18 @@
+.containerse7 {
+    margin-top: 40px;
+    width: 650px;
+    /* outline: 2px solid red; */
+    font-family: "Mali", cursive;
+    font-style: normal;
+    /* font-size: 25px;
+    font-weight:800; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.containerse7 a {
+    position: relative;
+    justify-content: space-between;
+}

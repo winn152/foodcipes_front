@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.container-follow {
+    width: 100%;                 /* ความกว้างเต็มหน้าจอ */
+    min-height: 100vh;            /* ความสูงขั้นต่ำเต็มหน้าจอ */
+    margin: 0 auto;               /* จัดกึ่งกลาง */
+    font-family: "Mali", cursive;
+    font-style: normal;
+    background-color: #F8F6F2;    /* สีพื้นหลัง */
+    box-sizing: border-box;       /* รวม padding/border ในขนาด */
+    padding: 10px;               
+}
+
+
+.followprofile h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.followprofilecon p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.fpfc3 h2 {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.fpfc3 h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #7a7a7a;
+}
+
+.follow-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cardfollow:nth-child(1) {
+    margin-top: 80px;
+}
+
+.cardfollow {
+    /* margin-top: 100px; */
+    background-color: #fff;
+    max-width: 800px;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    width: 100%;
+
+}
+
+.followprofile {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.followprofile img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.fpfc3 {
+    display: flex;
+    margin-right: 20px;
+
+}
+
+.fpfc3 h2 {
+    margin-right: 10px;
+}
+
+.followprofilecon2 {
+    display: flex;
+    align-self: flex-start;
+}
+
+.followprofilecon {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.follow-btn {
+    background-color: #FF9F1C;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: #ffffff;
+    border: 2px solid transparent;
+    transition: 0.3s;
+    margin-top: 1rem;
+    border-radius: 30px;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+}
+
+.follow-btn:hover {
+    cursor: pointer;
+}
+
+.following {
+    background-color: #ffffff;
+    color: #FF9F1C;
+    border: 2px solid #FF9F1C;
+}
+
+.followcon2{
+    margin: 0px 10px;
+}
+
+.followcon2 img {
+    width: 200px;
+    border-radius: 20px;
+    margin-top: 20px;
+    object-fit: cover;
+    height: 120px;
+}
+
+.followcon2 h2 {
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+/* .cardfollow{
+
+} */
+
+.cardfollow:nth-child(2) {
+    display: flex;
+    /* justify-content: flex-start; */
+    /* align-items: flex-start; */
+    flex-wrap: wrap;
+    padding-left: 60px;
+}
+
+
+
+.cardfollow h1 {
+    font-size: 25px;
+    font-weight: 500;
+}

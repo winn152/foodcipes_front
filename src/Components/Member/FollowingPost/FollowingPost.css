@@ -1,0 +1,30 @@
+.relative_10{
+    position: relative;
+}
+
+.button_insert {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px; /* 12 * 4px */
+    height: 48px; /* 12 * 4px */
+    color: white;
+    background-color: #2EC4B6;
+    border-radius: 9999px; /* Fully rounded */
+    border: 2px solid white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 80px; /* 4 * 4px */
+    margin-right: 120px; /* 4 * 4px */
+    transition: background-color 0.3s ease; /* Smooth transition for hover */
+  }
+  
+  .button_insert:hover {
+    background-color: #1c8c8e; /* Darker color on hover */
+  }
+
+  .button_insert:focus {
+    outline: none;
+    ring: 4px solid #1c8c8e; /* Ring on focus */
+  }

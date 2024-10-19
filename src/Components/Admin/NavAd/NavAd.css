@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.containernav {
+    font-family: "Mali", cursive;
+    font-style: normal;
+    /* font-size: 30px;
+    font-weight: 900; */
+
+}
+.NavAdProfile{
+    /* background-color: aqua; */
+    padding-left: 20px;
+
+
+}
+
+.NavAdProfile img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    /* border: 2px solid #FF9F1C; เพิ่มขอบสีส้ม */
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); เพิ่มเงา */
+}
+
+ul li h1 {
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.NavAd_right {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.NavAdright{
+    /* background-color: aqua; */
+    /* width: 10px; */
+}

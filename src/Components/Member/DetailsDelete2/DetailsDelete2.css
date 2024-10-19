@@ -1,0 +1,36 @@
+.EditPost-btnn {
+    background-color: #ffffff;
+    padding: .3rem 1rem;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #FF9F1C;
+    transition: 0.3s;
+    border-radius: 20px;
+}
+
+.EditPost-btnn:hover {
+    background-color: #FF9F1C;
+    color: #ffffff;
+}
+
+.DetailsD-btnn{
+    /* background-color: #ffffff; */
+    padding: .3rem 1rem;
+    text-decoration: none;
+    /* color: #333; */
+    /* border: 2px solid #FF9F1C; */
+    transition: 0.3s;
+    border-radius: 20px;
+    color: #fff;
+    /* margin-top: 10px; */
+    background-color: #ff0000;
+    border: 2px solid #ff0000;
+
+}
+
+.DetailsD-btnn:hover{
+    background-color: #950000;
+    color: #ffffff;
+    border: 2px solid #950000;
+
+}
